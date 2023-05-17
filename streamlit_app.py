@@ -40,3 +40,4 @@ streamlit.dataframe(my_data_rows)
 
 #add fruit to snowflake list
 add_my_fruit = streamlit.text_input('Add fruit to the list: ')
+my_data_rows = my_data_rows.append(add_my_fruit)
